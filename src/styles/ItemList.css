@@ -1,0 +1,24 @@
+#item-list {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.item {
+  border: solid 4px black;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin: 8px;
+  font-size: 40px;
+}
+
+#item-list-subHeader {
+  display: flex;
+  flex: 1;
+  font-size: 24px;
+}

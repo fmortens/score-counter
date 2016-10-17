@@ -1,0 +1,107 @@
+body, html {
+  height: 100%;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  height:100%;
+  background-color:white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.section {
+  display: flex;
+  flex: 1;
+  border: solid 4px black;
+  margin: 50px;
+  background-color: white;
+}
+
+#left {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  border-right-width: 2px;
+  margin-right: 0px;
+  min-width: 400px;
+}
+
+#right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border-left-width: 2px;
+  margin-left: 0px;
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  font-size: 40px;
+  border-bottom: solid 2px black;
+  justify-content: center;
+  align-content: center;
+  min-height: 60px;
+}
+.header div {
+  display: flex;
+  align-self: center;
+}
+
+.main {
+  display: flex;
+  flex: 9;
+  border-top: solid 2px black;
+  flex-direction: column;
+  overflow: auto;
+}
+
+#items-collected-list {
+  display: flex;
+  flex: 9;
+}
+
+#bonus-total {
+  display: flex;
+  flex: 1;
+  border-top: solid 4px black;
+  min-height: 60px;
+}
+
+#score-total-wrapper {
+  display: flex;
+  flex: 1;
+  border-top: solid 4px black;
+  flex-direction: row;
+  align-content: center;
+  min-height: 70px;
+}
+
+#score-total {
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  line-height: 28px;
+  padding: 6px;
+  width: 100px;
+  margin: 10px;
+  align-self: center;
+}
+
+#new-game-button {
+  display: flex;
+  border: solid 4px black;
+  font-size: 28px;
+  justify-content: center;
+  line-height: 28px;
+  padding: 6px;
+  width: 150px;
+  margin: 10px;
+  align-self: center;
+  cursor: pointer;
+}
